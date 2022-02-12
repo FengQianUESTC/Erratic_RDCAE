@@ -1,0 +1,9 @@
+Geophysics为画图工具包
+model为深度学习所需网络模型
+output为输出结果
+步骤：
+1、输入数据seis_dn_chongdie272_1_44_50.npy\seis_dn_chongdie_50_44_2832.npy，其中2832为训练数据
+2、输入数据2832在train.py中训练，获得best_unetmodel_2832tv.pth+diedai.png
+3、输入数据272_1_44_50.npy输入到网络进行测试，输出结果是auto_seis_welsch_2.mat
+4、将此数据放入matlab文件夹进行进一步处理
+
